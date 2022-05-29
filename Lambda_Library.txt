@@ -1,0 +1,5 @@
+######Lambdas
+
+void print_all(std::vector<std::string> s) {
+    std::for_each(s.begin(), s.end(), [](auto n) {std::cout << n << std::endl; });
+}
